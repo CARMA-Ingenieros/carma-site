@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CARMA - Constructora</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="css/style.css" rel="stylesheet">
+</head>
+<body class="flex flex-col min-h-screen">
+  <!-- Header -->
+  <header class="bg-white shadow">
+    <div class="container mx-auto px-4 py-4 flex items-center justify-between">
+      <a href="index.html" class="flex items-center">
+        <img src="img/logo_carma_icon.png" alt="Logo CARMA" class="h-8 w-8 mr-2">
+        <span class="text-xl font-bold text-green-700">CARMA</span>
+      </a>
+      <nav>
+        <ul class="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-6">
+          <li><a href="index.html" class="text-gray-700 hover:text-green-600">Inicio</a></li>
+          <li><a href="ambiental.html" class="text-gray-700 hover:text-green-600">Ambiental</a></li>
+          <li><a href="constructora.html" class="text-green-600 font-medium">Constructora</a></li>
+          <li><a href="soluciones-hdpe.html" class="text-gray-700 hover:text-green-600">Soluciones HDPE</a></li>
+          <li><a href="ingenieria.html" class="text-gray-700 hover:text-green-600">Ingeniería</a></li>
+          <li><a href="analytics.html" class="text-gray-700 hover:text-green-600">Analytics</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Constructora -->
+  <section class="bg-cover bg-center h-64" style="background-image: url('img/constructora.jpg');">
+    <div class="bg-green-900 bg-opacity-50 h-full flex items-center justify-center">
+      <h1 class="text-4xl text-white font-bold">Construcción y Supervisión</h1>
+    </div>
+  </section>
+
+  <!-- Contenido Constructora -->
+  <section class="py-12">
+    <div class="container mx-auto px-4">
+      <h2 class="text-2xl font-semibold mb-4 text-gray-800">Servicios Constructivos</h2>
+      <p class="mb-4 text-gray-700">CARMA brinda servicios integrales en el área constructiva. Nos especializamos en la <strong>supervisión técnica de obras civiles</strong>, la elaboración de expedientes técnicos y levantamientos topográficos. Contamos con equipo propio para ensayos de suelos y materiales, garantizando proyectos ejecutados con calidad, seguridad y dentro del plazo establecido.</p>
+      <ul class="list-disc list-inside text-gray-700">
+        <li>Supervisión de Obras Civiles</li>
+        <li>Expedientes Técnicos y Perfiles</li>
+        <li>Levantamientos Topográficos</li>
+        <li>Ensayos de Mecánica de Suelos</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Footer (igual que en otras páginas) -->
+  <footer class="mt-auto bg-gray-900 text-white py-6">
+    <div class="container mx-auto px-4 text-center">
+      <p class="font-semibold">CARMA ASOCIADOS S.A.C. | RUC: 20610619500</p>
+      <p>Dirección: Tacna – Tacna – Tacna, Perú.<br>
+         Email: contacto@carmaingenieros.com | ventas@carmaingenieros.com
+      </p>
+      <div class="mt-4 space-x-4">
+        <a href="#" class="text-gray-400 hover:text-white"><!-- Facebook SVG -->...</a>
+        <a href="#" class="text-gray-400 hover:text-white"><!-- Instagram SVG -->...</a>
+        <a href="#" class="text-gray-400 hover:text-white"><!-- LinkedIn SVG -->...</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
