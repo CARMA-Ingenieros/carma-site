@@ -1,0 +1,1 @@
+{"name":"carma-hdpe-ambiental","version":"2.0.0","private":true,"type":"module","scripts":{"build":"node web/build.mjs","check":"node --check web/build.mjs && node --check web/site.js"},"engines":{"node":">=18"}}
